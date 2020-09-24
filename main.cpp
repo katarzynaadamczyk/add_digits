@@ -24,6 +24,7 @@ int main()
     return 0;
 }
 
+//first-thought algorithm, using recursion
 
 unsigned int add_digits(unsigned int liczba)
 {
@@ -46,6 +47,8 @@ unsigned int add_digits(unsigned int liczba)
     else
         return 0;
 }
+
+//second-thought algorithm
 
 unsigned int add_digits_2(unsigned int liczba)
 {
